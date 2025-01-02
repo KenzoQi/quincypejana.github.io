@@ -6,21 +6,41 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
     <link rel="stylesheet" href="assets/css/main.css" />
     <noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+    <style>
+        #intro {
+        
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            color: white;
+            padding: 50px;
+            text-align: center; /* Centers the content */
+        }
+        #profile-image {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            margin-bottom: 20px;
+            border: 3px solid white;
+            object-fit: cover;
+        }
+    </style>
 </head>
 <body class="is-preload">
-
     <!-- Wrapper -->
     <div id="wrapper" class="fade-in">
 
         <!-- Intro -->
         <div id="intro">
-            <h1>Hello! I'm<br /> Jhon Quincy L. Pejana</h1>
-            <p>A passionate IT Student skilled in  Python, JavaScript, HTML, C++.<br />
-            Dedicated to delivering impactful solutions through [Your Focus Areas].</p>
-            <ul class="actions">
-                <li><a href="#header" class="button icon solid solo fa-arrow-down scrolly">Explore</a></li>
-            </ul>
-        </div>
+			<img src="./images/profile.jpg" alt="Profile Image" id="profile-image" />
+			<h1>Hello! I'm<br /> Jhon Quincy L. Pejana</h1>
+			<p>A passionate IT Student skilled in Python, JavaScript, HTML, C++.<br />
+			Dedicated to delivering impactful solutions through [Your Focus Areas].</p>
+			<ul class="actions">
+				<li><a href="#header" class="button icon solid solo fa-arrow-down scrolly">Explore</a></li>
+			</ul>
+		</div>
+		
 
         <!-- Header -->
         <header id="header">
@@ -39,7 +59,6 @@
 
         <!-- Main -->
         <div id="main">
-
             <!-- About Me -->
             <section id="about">
                 <header class="major">
@@ -48,33 +67,38 @@
                 <p>I am a third-year Information Technology student at the University of Science and Technology of Southern Philippines (USTP), driven by a passion for leveraging technology to create impactful solutions. I have hands-on experience in developing mobile and web applications and a strong interest in web design, software development, database systems, and innovative tech solutions. My goal is to contribute to the tech industry by designing and building efficient, scalable, and applications that enhance everyday lives.</p>
             </section>
 
-				<!-- Experience -->
-				<section id="experience">
-					<header class="major">
-						<h2>Experience</h2>
-					</header>
-					<ul>
-						<li><strong>Lead Developer</strong> - School Management System (2023)<br />
-							Led the development of a school management system to streamline student records, attendance tracking, and teacher management. Designed the database structure and implemented a responsive web interface using PHP, MySQL, and Bootstrap.
-						</li>
-						<li><strong>UI Developer</strong> - Mobile Application Project (2023)<br />
-							Collaborated with a team to design the user interface for a mobile application. Focused on creating a visually appealing and user-friendly layout.
-						</li>
-					</ul>
-				</section>
-
-
-            <!-- Projects -->
-            <section id="projects">
+            <!-- Experience -->
+            <section id="experience">
                 <header class="major">
-                    <h2>Projects</h2>
+                    <h2>Experience</h2>
                 </header>
-                <ul class="posts">
-                    <li><strong>[Project Name]</strong><br />
-                        [Short description of the project. Include technologies used and the impact.]
+                <ul>
+                    <li><strong>Lead Developer</strong> - Enrollment System (2024)<br />
+                        Led the development of an enrollment system to streamline student registration, record management, and class scheduling. Designed the database structure and implemented a responsive web interface using PHP, MySQL, and Bootstrap.
                     </li>
-                    <li><strong>[Project Name]</strong><br />
-                        [Short description of the project. Include technologies used and the impact.]
+                    <li><strong>UI Developer</strong> - Mobile Application Project (2024)<br />
+                        Collaborated with a team to design the user interface for a mobile application. Focused on creating a visually appealing and user-friendly layout.
+                    </li>
+                </ul>
+            </section>
+
+            <!-- Skills -->
+            <section id="skills">
+                <header class="major">
+                    <h2>Skills</h2>
+                </header>
+                <ul class="skills-list">
+                    <li>
+                        <strong>Python</strong><br />
+                        Proficient in developing web applications using frameworks like Flask and Django. Experienced in data analysis and scripting for automation tasks. Familiar with machine learning libraries such as NumPy and Pandas.
+                    </li>
+                    <li>
+                        <strong>C++</strong><br />
+                        Skilled in object-oriented programming and system-level development. Experience in building efficient algorithms and data structures. Knowledgeable in software optimization and performance tuning.
+                    </li>
+                    <li>
+                        <strong>Java</strong><br />
+                        Experienced in building cross-platform applications. Familiar with Java-based frameworks and tools. Knowledgeable in software development principles and design patterns.
                     </li>
                 </ul>
             </section>
@@ -86,16 +110,18 @@
                 </header>
                 <p>Feel free to reach out to me!</p>
                 <ul class="icons">
-                    <li><a href="#" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
-                    <li><a href="#" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
-                    <li><a href="#" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
+                    <li><a href="https://www.linkedin.com/in/jhon-quincy-pejana-29191b2b7" class="icon brands fa-linkedin" target="_blank"><span class="label">LinkedIn</span></a></li>
+                    <li><a href="https://www.facebook.com/passwordunidentified" class="icon brands fa-facebook" target="_blank"><span class="label">Facebook</span></a></li>
+                    <li><a href="https://github.com/KenzoQi" class="icon brands fa-github" target="_blank"><span class="label">GitHub</span></a></li>
+                    <li><a href="mailto:your-email@example.com" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
                 </ul>
             </section>
-        </div>e
+
+        </div>
 
         <!-- Footer -->
         <footer id="footer">
-            <p>&copy; [Your Name]. All rights reserved.</p>
+            <p>&copy; Jhon Quincy L. Pejana. All rights reserved.</p>
         </footer>
     </div>
 
@@ -107,6 +133,5 @@
     <script src="assets/js/breakpoints.min.js"></script>
     <script src="assets/js/util.js"></script>
     <script src="assets/js/main.js"></script>
-
 </body>
 </html>
